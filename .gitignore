@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+*.zip
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.development
+.env.production
+
+# Test coverage
+coverage/
+
+# Chrome extension artifacts
+*.crx
+*.pem
+
+# Misc
+*.log
+
+# Ignore package-lock or yarn.lock if you prefer to lock dependencies per-dev
+# package-lock.json
+# yarn.lock
