@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YggtorrentLogger",
+  "version": "1.0",
+  "description": "Une extension pour enregistrer le login de connexion pour Yggtorrent",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon128.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "icons" : {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
